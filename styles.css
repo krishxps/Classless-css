@@ -1,24 +1,26 @@
-*{
-  margin-top: 35px;
+* {
+  margin-top: 40px;
+  background-color: #1f1b1c;
+  color: #ffffff;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 20px;
 }
 
 h1,
 h2,
-h3{
+h3 {
   text-align: center;
 }
 
+
 header {
-  left: 0px;
-  right: 0px;
-  margin-top: 0px;
-  background-color: #333;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  background-color: #1f1b1c;
   color: white;
   padding: 10px;
   text-align: center;
@@ -26,21 +28,28 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow properties */
 }
-header nav{
-  background-color: #333;
-}
-nav {
 
-  margin-top: 0px;
+header nav {
+  background-color: #1f1b1c;
+}
+
+nav {
+  margin-top: 0;
   background-color: #f8f8f8;
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: #000;
+  color: #ffffff;
   margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #929292;
   text-decoration: none;
 }
 
@@ -57,9 +66,40 @@ article {
 }
 
 footer {
+  margin: 0;
+  padding: 10px 15px;
+  width: 100%;
   margin-top: 20px;
-  background-color: #333;
+  background-color: #1f1b1c;
   color: white;
-  padding: 10px;
   text-align: center;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5); /* Add shadow at the top of the footer */
 }
+
+button {
+  align-items: center;
+  background-color: #313131;
+  border: none;
+  border-radius: 2px;
+  color: #f2f2f2;
+  display: grid;
+  font-family: inherit;
+  font-size: .875rem;
+  font-weight: 500;
+  gap: 8px;
+  grid-auto-flow: column;
+  justify-content: center;
+  letter-spacing: .03125rem;
+  line-height: 1rem;
+  outline: none;
+  padding: 16px;
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 auto; /* Add this line to center the button */
+}
+
+button:hover {
+  background-color: #787878;
+}
+
+
