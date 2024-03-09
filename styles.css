@@ -1,26 +1,21 @@
 * {
-  margin-top: 40px;
-  background-color: #1f1b1c;
-  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
+  margin-top: 40px;
+  background-color: #1f1b1c;
   color: #ffffff;
 }
 
 header {
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 0;
+  padding: 10px;
   background-color: #1f1b1c;
   color: white;
-  padding: 10px;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -29,12 +24,8 @@ header {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-header nav {
-  background-color: #1f1b1c;
-}
-
 nav {
-  margin-top: 0;
+  margin-top: 40px;
   background-color: #f8f8f8;
   padding: 10px;
   text-align: center;
@@ -42,12 +33,7 @@ nav {
 
 nav a {
   color: #ffffff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #929292;
+  margin: 0 15px;
   text-decoration: none;
 }
 
@@ -56,17 +42,17 @@ section {
 }
 
 article {
-  max-width: 100%;
+  max-width: 800px; /* Adjust the max-width as per your preference */
+  margin: 0 auto; /* Center the article */
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center the article content */
+  text-align: center;
 }
 
 footer {
-  margin: 0;
+  margin-top: 20px;
   padding: 10px 15px;
   width: 100%;
-  margin-top: 20px;
   background-color: #1f1b1c;
   color: white;
   text-align: center;
@@ -98,7 +84,6 @@ button {
 button:hover {
   background-color: #787878;
 }
-
 /* Headings */
 h1 {
   font-size: 2rem;
