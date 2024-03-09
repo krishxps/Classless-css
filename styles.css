@@ -9,12 +9,10 @@ body {
   line-height: 1.6;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
+  color: #ffffff;
 }
-
 
 header {
   padding-left: 0;
@@ -28,7 +26,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow properties */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav {
@@ -58,11 +56,10 @@ section {
 }
 
 article {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 100%;
   padding: 20px;
-  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the article content */
 }
 
 footer {
@@ -73,7 +70,7 @@ footer {
   background-color: #1f1b1c;
   color: white;
   text-align: center;
-  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5); /* Add shadow at the top of the footer */
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
 }
 
 button {
@@ -95,11 +92,103 @@ button {
   padding: 16px;
   position: relative;
   text-transform: uppercase;
-  margin: 0 auto; /* Add this line to center the button */
+  margin: 0 auto;
 }
 
 button:hover {
   background-color: #787878;
 }
 
+/* Headings */
+h1 {
+  font-size: 2rem;
+}
 
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Paragraph */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #929292;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Forms */
+form {
+  margin-bottom: 20px;
+}
+
+input, select, textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+/* Semantic Elements */
+header, nav, article, section, footer {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Media */
+audio, video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
